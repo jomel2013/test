@@ -37,10 +37,9 @@ const {
 app.listen(port, () => {
   // DON'T EDIT or MODIFY!!!!
   const connection = mysql.createConnection({
-    host: HOST,
-    user: USERNAME,
-    password: PASSWORD,
-    database: DATABASE
+    host: 'Hjohn-testdb-t1.c4yvxvqwasr3.ap-southeast-1.rds.amazonaws.comOST',
+    user: 'dbusername',
+    password: 'itsyourday',
   })
 
   connection.connect();
